@@ -50,12 +50,6 @@ const buttonPricing = "Pricing";
                   ]"
                   >{{ buttonSeeFeature }}</a
                 >
-                <a
-                  href="#pricing-section"
-                  class="btn btn-outline-primary smoothscroll pricing"
-                  :style="[{ color: themeColor }, { borderColor: themeColor }]"
-                  >{{ buttonPricing }}</a
-                >
               </p>
             </div>
           </div>
