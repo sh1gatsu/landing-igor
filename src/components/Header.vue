@@ -12,22 +12,9 @@ import { themeColor, siteName } from "../data/items";
           <li class="active">
             <a href="#home-section" class="nav-link">Home</a>
           </li>
-          <li class="has-children">
-            <a href="#" class="nav-link">Dropdown</a>
-            <ul class="dropdown">
-              <li>
-                <a href="#testimonials-section" class="nav-link"
-                  >Testimonials</a
-                >
-              </li>
-              <li><a href="#" class="nav-link">Menu Two</a></li>
-              <li><a href="#" class="nav-link">Menu Three</a></li>
-            </ul>
-          </li>
+          <li><a href="#about-section" class="nav-link">About</a></li>
           <li><a href="#features-section" class="nav-link">Features</a></li>
           <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-          <li><a href="#about-section" class="nav-link">About</a></li>
-          <li><a href="#contact-section" class="nav-link">Contact</a></li>
         </ul>
         <a
           href="#"

@@ -2,7 +2,7 @@
 import { themeColor } from "../data/items";
 
 const heading = "Testimonials";
-const subHeading = "Our Customers Feedbck";
+const subHeading = "Our Customers Feedback";
 const testimonials = [
   {
     name: "James Anderson",
@@ -29,7 +29,7 @@ const testimonials = [
 </script>
 
 <template>
-  <div class="untree_co-section" id="testimonials-section">
+  <div class="untree_co-section bg-light" id="testimonials-section">
     <div class="container">
       <div class="row">
         <div

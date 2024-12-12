@@ -27,7 +27,7 @@ const items = [
 ];
 </script>
 <template>
-  <div class="untree_co-section">
+  <div class="untree_co-section bg-light">
     <div class="container">
       <div class="row">
         <div

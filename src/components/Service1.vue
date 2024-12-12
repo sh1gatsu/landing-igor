@@ -11,7 +11,7 @@ const personName = "James Anderson";
 const designation = "Facebook, Product Lead";
 function youtubeVideoUrl() {
   const youtubeVideoId = "FzRH7y3LbQE";
-  return `https://www.youtube.com/watch?v=${youtubeVideoId}&amp;t=9s`;
+  return `https://www.youtube.com/watch?v=xyzNQ2IxhIM&ab_channel=ScreenCulture`;
 }
 </script>
 <template>
@@ -59,7 +59,7 @@ function youtubeVideoUrl() {
             </div>
           </div>
         </div>
-        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-lg-7 video-wrapper" data-aos="fade-up" data-aos-delay="400">
           <a :href="youtubeVideoUrl()" class="btn-video" data-fancybox>
             <span class="wrap-icon-play">
               <svg
@@ -75,10 +75,18 @@ function youtubeVideoUrl() {
                 />
               </svg>
             </span>
-            <img :src="mainPhoto" alt="Image" class="img-fluid img-shadow" />
+            <img :src="mainPhoto" alt="Image" class="img-fluid img-shadow video-img" />
           </a>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.video-wrapper {
+  @media (min-width: 992px) {
+    margin-top: 120px
+  }
+}
+</style>
