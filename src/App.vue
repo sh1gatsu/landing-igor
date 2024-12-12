@@ -18,8 +18,8 @@ import GamesCatalog from "./components/GamesCatalog.vue";
   <Feature />
   <Service1 />
   <GamesCatalog />
-  <Advantage />
   <Testimonial />
+  <Advantage />
   <Blog />
   <Footer />
 </template>

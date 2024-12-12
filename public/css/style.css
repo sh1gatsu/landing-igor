@@ -500,7 +500,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   outline: none; }
 
 .untree_co-hero, .untree_co-hero > .container > .row {
-  padding: 4rem 0; }
+  padding: 6rem 0; }
 
 @media (max-width: 991.98px) {
   .untree_co-hero {

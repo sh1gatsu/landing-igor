@@ -75,4 +75,13 @@ const buttonPricing = "Pricing";
 .hero-img {
   border-radius: 50px;
 }
+
+.btn {
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: white !important;
+  color: rgb(64, 123, 255) !important;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-<div class="games-container" id="pricing-section">
+<div class="games-container" id="pricing-section" data-aos="fade-up" data-aos-delay="100">
   <h1>Games Catalog</h1>
 
   <GameList />
@@ -17,5 +17,6 @@ import GameList from "./GameList.vue";
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 120px;
 }
 </style>
