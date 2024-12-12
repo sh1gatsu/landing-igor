@@ -2,7 +2,7 @@
   "name": "vue_landing_page",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://sh1gatsu.github.io/landing-igor",
+  "homepage": "https://sh1gatsu.github.io/landing-igor",
   "type": "module",
   "scripts": {
     "dev": "vite",
