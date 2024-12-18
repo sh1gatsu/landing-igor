@@ -19,6 +19,7 @@ import mainPhoto from "../assets/images/games/gta6-logo-square.png";
   display: flex;
   align-items: center;
   flex-direction: column;
+  background: white;
   border: 10px solid #ffffff;
   -webkit-box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);

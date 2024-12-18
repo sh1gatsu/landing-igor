@@ -12,9 +12,9 @@ import { themeColor, siteName } from "../data/items";
           <li class="active">
             <a href="#home-section" class="nav-link">Home</a>
           </li>
-          <li><a href="#about-section" class="nav-link">About</a></li>
+          <li><a href="#pricing-section" class="nav-link">Catalog</a></li>
           <li><a href="#features-section" class="nav-link">Features</a></li>
-          <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
+          <li><a href="#about-section" class="nav-link">About</a></li>
         </ul>
         <a
           href="#"

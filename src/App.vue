@@ -14,10 +14,9 @@ import GamesCatalog from "./components/GamesCatalog.vue";
 <template>
   <Header />
   <Hero />
-  <About />
-  <Feature />
-  <Service1 />
   <GamesCatalog />
+  <Service1 />
+  <About />
   <Testimonial />
   <Advantage />
   <Blog />

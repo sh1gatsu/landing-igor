@@ -64,6 +64,22 @@ const buttonPricing = "Pricing";
         </div>
       </div>
     </div>
+    <diu class="wrapper">
+      <h5 data-aos="fade-up" data-aos-delay="0">
+        Click
+        <span
+            style="
+                      background-color: rgba(64, 123, 255, 0.07);
+                      color: #407bff;
+                    "
+        >here</span
+        > if you are still have questions
+      </h5>
+
+      <a href="#pricing-section" class="learn-more__btn smoothscroll">
+        Learn more
+      </a>
+    </diu>
   </div>
 </template>
 
@@ -83,5 +99,30 @@ const buttonPricing = "Pricing";
 .btn:hover {
   background: white !important;
   color: rgb(64, 123, 255) !important;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.learn-more__btn {
+  margin-top: 20px;
+  color: white;
+  background: rgb(64, 123, 255);
+  cursor: pointer;
+  border: 1px solid rgb(64, 123, 255);
+  border-radius: 50px;
+  padding: 10px;
+  transition: background 0.3s ease;
+  outline: none;
+
+  font-size: 25px;
+}
+
+.learn-more__btn:hover {
+  color: rgb(64, 123, 255);
+  background: white;
 }
 </style>
