@@ -1,7 +1,7 @@
 <script setup>
 import { contactInfo } from "../data/items";
 
-const copyrightText = "Copyright 2023, All rights reserved.";
+const copyrightText = "Copyright 2025, All rights reserved.";
 const column1Heading = "About Launch";
 const column1Text =
   "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.";
