@@ -1,5 +1,5 @@
 const themeColor = '#407BFF'
-const siteName = 'Launch'
+const siteName = 'BeTheFirst'
 
 const contactInfo = {
     address: '43 Raymouth Rd. Baltemoer, London 3910',
