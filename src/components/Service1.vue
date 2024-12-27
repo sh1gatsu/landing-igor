@@ -31,7 +31,14 @@ function youtubeVideoUrl() {
           </h3>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
             <p>
-              With BeTheFirst, you gain instant access to early versions of the hottest upcoming games. We ensure seamless downloads and constant updates to enhance your gaming experience.
+              With
+              <span
+                  style="
+                      background-color: rgba(64, 123, 255, 0.07);
+                      color: #407bff;
+                    "
+              >BeTheFirst</span
+              >, you gain instant access to early versions of the hottest upcoming games. We ensure seamless downloads and constant updates to enhance your gaming experience.
             </p>
             <ul class="list-unstyled ul-check primary">
               <li>Access exclusive early builds of trending games</li>

@@ -747,7 +747,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       .news-item .news-contents h3 a:hover {
         color: #407BFF; }
   .news-item:hover, .news-item:active, .news-item:focus {
-    top: -10px;
     -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05); }
     @media (max-width: 991.98px) {
