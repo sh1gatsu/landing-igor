@@ -1,17 +1,34 @@
 <template>
-  <div class="games-item">
-    <img class="games-item__img" :src="mainPhoto"/>
+  <div v-if="isAvailable" class="games-item">
+    <img class="games-item__img" :src="props.img"/>
 
-    <h4>GTA 6</h4>
+    <h3>{{ props.title }}</h3>
 
-    <h3 class="games-item__price">600 eur</h3>
+    <a
+      class="games-item__btn"
+      href="https://t.me/BeTheFirstMarket_bot"
+      target="_blank"
+    >
+      Buy in telegram
+    </a>
+  </div>
 
-    <div class="games-item__btn">Buy in telegram</div>
+  <div v-else class="games-item-soon">
+    <img class="games-item__img-soon" :src="comingSoon"/>
   </div>
 </template>
 
 <script setup>
-import mainPhoto from "../assets/images/games/gta6-logo-square.png";
+import comingSoon from "../assets/images/games/coming-soon.jpg";
+import {computed} from "vue";
+
+const props = defineProps({
+  title: String,
+  img: String,
+  isComingSoon: Boolean,
+})
+
+const isAvailable = computed(() => !props.isComingSoon);
 </script>
 
 <style scoped>
@@ -29,12 +46,30 @@ import mainPhoto from "../assets/images/games/gta6-logo-square.png";
   width: 250px;
 }
 
+.games-item-soon {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 10px solid #ffffff;
+  -webkit-box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  height: 400px;
+  width: 250px;
+}
+
 .games-item__img {
   border: 1px solid black;
   border-radius: 15px;
   height: 200px;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.games-item__img-soon {
+  height: 200px;
+  width: 100%;
 }
 
 .games-item__price {
@@ -50,6 +85,7 @@ import mainPhoto from "../assets/images/games/gta6-logo-square.png";
   border-radius: 30px;
   padding: 10px;
   transition: background 0.3s ease;
+  margin-top: 15px;
 }
 
 .games-item__btn:hover {

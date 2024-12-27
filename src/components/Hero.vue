@@ -42,14 +42,13 @@ const buttonPricing = "Pricing";
                     >You!</span
                   >
                   <br/>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast
+                  Your gateway to experiencing the future of gaming before anyone else. Dive into the worlds of upcoming blockbusters like GTA 6, test their mechanics, and immerse yourself in the action before the official release.
                 </p>
               </div>
               <p data-aos="fade-up" data-aos-delay="200">
                 <a
-                  href="#features-section"
+                  href="https://t.me/BeTheFirstMarket_bot"
+                  target="_blank"
                   class="btn btn-primary smoothscroll"
                   style="margin-right: 5px"
                   :style="[

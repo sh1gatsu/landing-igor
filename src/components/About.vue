@@ -4,7 +4,7 @@ import mainPhoto from "../assets/images/about.svg";
 
 const heading = "About";
 const subHeading = "About Us";
-const totalMembers = "50";
+const totalMembers = "250";
 const totalTeam = "20";
 </script>
 
@@ -24,17 +24,12 @@ const totalTeam = "20";
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="100">
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast
+              Passionate gamers, developers, and futurists at heart. Our mission is to bridge the gap between eager players and groundbreaking developers by delivering exclusive access to early builds of upcoming games.
             </p>
             <p>
-              Separated they
               <span class="highlight"
-                >live in Bookmarksgrove right at the coast of the
-                Semantics</span
-              >, a large language ocean. A small river named Duden flows by
-              their place and supplies it with the necessary regelialia.
+                >Founded by a team of visionaries who wanted to redefine the gaming landscape</span
+              >, we’ve become the trusted name in early access gaming. Join us and take part in the gaming evolution.
             </p>
           </div>
           <ul
@@ -42,15 +37,15 @@ const totalTeam = "20";
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <li>There live the blind texts</li>
-            <li>Far far away behind the word</li>
-            <li>Their place and supplies</li>
+            <li>Secure and Easy Access</li>
+            <li>Real-Time Updates</li>
+            <li>Community-Driven Experience</li>
           </ul>
           <div class="row count-numbers">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
               <span class="counter d-block"
                 ><span :data-number="totalMembers">{{ totalMembers }}</span
-                ><span>M</span></span
+                ><span>+</span></span
               >
               <span class="caption-2">Members</span>
             </div>
@@ -59,7 +54,7 @@ const totalTeam = "20";
                 ><span :data-number="totalTeam">{{ totalTeam }}</span
                 ><span></span
               ></span>
-              <span class="caption-2">Team</span>
+              <span class="caption-2">Beta testers</span>
             </div>
           </div>
         </div>

@@ -4,9 +4,9 @@ import personPhoto from "../assets/images/person_1.jpg";
 import mainPhoto from "../assets/images/service1.jpg";
 
 const service1Heading = "Digital Services";
-const service1SubHeading = "Selling Digital Services";
+const service1SubHeading = "Digital";
 const service1Quote =
-  '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."';
+  '"Start building your digital collection today and redefine how you play."';
 const personName = "James Anderson";
 const designation = "Facebook, Product Lead";
 function youtubeVideoUrl() {
@@ -31,13 +31,12 @@ function youtubeVideoUrl() {
           </h3>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast
+              With BeTheFirst, you gain instant access to early versions of the hottest upcoming games. We ensure seamless downloads and constant updates to enhance your gaming experience.
             </p>
             <ul class="list-unstyled ul-check primary">
-              <li>There live the blind texts</li>
-              <li>Far far away behind the word</li>
+              <li>Access exclusive early builds of trending games</li>
+              <li>Be the first to play new levels and features</li>
+              <li>Share your gameplay moments with fellow enthusiastsg</li>
             </ul>
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="300">
@@ -46,15 +45,6 @@ function youtubeVideoUrl() {
                 <blockquote>
                   {{ service1Quote }}
                 </blockquote>
-                <div class="author d-flex">
-                  <div class="pic mr-3">
-                    <img :src="personPhoto" alt="Image" class="img-fluid" />
-                  </div>
-                  <div>
-                    <strong class="d-block">{{ personName }}</strong
-                    ><span class="d-block">{{ designation }}</span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

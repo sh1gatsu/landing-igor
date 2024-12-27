@@ -5,24 +5,24 @@ const heading = "Testimonials";
 const subHeading = "Our Customers Feedback";
 const testimonials = [
   {
-    name: "James Anderson",
-    designation: "Facebook, Product Lead",
+    name: "John D.",
+    designation: "Seattle, USA",
     quote:
-      '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."',
+      '"Downloading the early build of GTA 6 was the best decision ever. The gameplay is mind-blowing!"',
     photo: "images/person_1.jpg",
   },
   {
-    name: "James Anderson",
-    designation: "Facebook, Product Lead",
+    name: "James A.",
+    designation: "London, UK",
     quote:
-      '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."',
+      '"BeTheFirst exceeded my expectations! I’ve already preordered two more games. Smooth process and great updates."',
     photo: "images/person_2.jpg",
   },
   {
-    name: "James Anderson",
-    designation: "Facebook, Product Lead",
+    name: "Carlos M.",
+    designation: "Madrid, Spain",
     quote:
-      '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."',
+      '"Being able to explore early game builds has made me feel like a part of the gaming industry. Love the platform!"',
     photo: "images/person_3.jpg",
   },
 ];
